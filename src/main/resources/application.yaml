@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: dbshiedl-backup-storage-api
+
+backup:
+  storage:
+    bucket: backups
+    endpoint: http://minio:9000
+    access-key: minio
+    secret-key: minio123
